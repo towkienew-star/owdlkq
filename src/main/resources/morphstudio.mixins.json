@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.towka.morphstudio.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["PlayerRendererMixin", "PlayerModelMixin", "MinecraftClientMixin"],
+  "injectors": {"defaultRequire": 1}
+}

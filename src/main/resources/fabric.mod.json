@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "morphstudio",
+  "version": "${version}",
+  "name": "Morph Studio",
+  "description": "Local player model editor and fake actor posing studio. No watermarks or overlay.",
+  "authors": ["Towka"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.towka.morphstudio.MorphStudioClient"]
+  },
+  "mixins": ["morphstudio.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "=1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
